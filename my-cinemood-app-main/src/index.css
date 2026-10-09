@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.app.dark {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+:root {
+  --nav-bg: #ffffff;
+  --card-bg: #f9f9f9;
+  --popup-bg: #fff;
+  --modal-bg: #fff;
+  --text-color: #000;
+  --button-bg: #007bff;
+  --button-text: #fff;
+  --button-hover: #0056b3;
+}
+
+.dark {
+  --nav-bg: #1f1f1f;
+  --card-bg: #2c2c2c;
+  --popup-bg: #2e2e2e;
+  --modal-bg: #2e2e2e;
+  --text-color: #f5f5f5;
+  --button-bg: #f39c12;
+  --button-text: #000;
+  --button-hover: #d68910;
+}
+@keyframes fadein {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}

@@ -1,0 +1,20 @@
+.hero-card {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+  color: rgb(82, 82, 85);
+}
+
+.hero-card:hover {
+  transform: scale(1.03);
+}
+
+.hero-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
